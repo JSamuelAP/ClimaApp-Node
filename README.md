@@ -4,6 +4,19 @@
 
 Aplicación de consola que permite consultar el clima de cualquier parte del mundo. Este proyecto fue impartido por [Fernando Herrera](https://fernando-herrera.com) en el curso de Udemy [Node: De cero a experto](https://www.udemy.com/course/node-de-cero-a-experto/).
 
+### Tecnoloías 🤖
+
+- [Node.js](https://nodejs.org/es)
+- [Mapbox](https://www.mapbox.com/)
+- [OpenWeather](https://openweathermap.org/)
+
+### Paquetes 📦
+
+- [Axios](https://www.npmjs.com/package/axios)
+- [Colors](https://www.npmjs.com/package/colors)
+- [Inquirer](https://www.npmjs.com/package/inquirer)
+- [DotEnv](https://www.npmjs.com/package/dotenv)
+
 ## Autor ✒️
 
 **JSamuel**
@@ -24,9 +37,7 @@ Es necesario tener instalado Node para ejecutar los siguientes comandos en una t
 
 ```bash
 npm install
-node app.js
+npm run start
 ```
 
-## Licencia ⚖️
-
-MIT License
+No olvide configurar las variables de entorno indicadas en `example.env`
